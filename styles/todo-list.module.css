@@ -1,0 +1,43 @@
+/* Styling for a container class */
+.container {
+  width: 300px;               /* Setting the width of elements with the 'container' class */
+  border: 1px solid black;    /* Adding a 1px solid black border to elements with the 'container' class */
+}
+
+/* Styling for a mainInputContainer class */
+.mainInputContainer {
+  width: 100%;                /* Setting the width of elements with the 'mainInputContainer' class to 100% */
+  margin: 20px 0;             /* Adding margin above and below elements with the 'mainInputContainer' class */
+}
+
+/* Styling for a mainInput class */
+.mainInput {
+  padding: 5px;               /* Adding padding to the elements with the 'mainInput' class */
+  border: 1px solid black;    /* Adding a 1px solid black border to elements with the 'mainInput' class */
+  margin: auto;               /* Centering elements with the 'mainInput' class horizontally */
+  display: block;             /* Making the elements with the 'mainInput' class block-level */
+  width: 260px;               /* Setting the width of elements with the 'mainInput' class */
+  height: 40px;               /* Setting the height of elements with the 'mainInput' class */
+}
+
+/* Styling for a filters class */
+.filters {
+  display: flex;              /* Setting the display property to flex for elements with the 'filters' class */
+  justify-content: space-between;  /* Distributing space evenly between child elements with the 'filters' class */
+  padding: 20px;              /* Adding padding to elements with the 'filters' class */
+  margin-top: 20px;           /* Adding margin at the top of elements with the 'filters' class */
+  border-top: 1px solid black; /* Adding a 1px solid black border at the top of elements with the 'filters' class */
+}
+
+/* Styling for a filterBtn class */
+.filterBtn {
+  background: none;           /* Removing background color for elements with the 'filterBtn' class */
+  border: none;               /* Removing borders for elements with the 'filterBtn' class */
+  cursor: pointer;            /* Setting the cursor to pointer for elements with the 'filterBtn' class */
+}
+
+/* Styling for a filterActive class */
+.filterActive {
+  text-decoration: underline;  /* Adding an underline to text for elements with the 'filterActive' class */
+}
+

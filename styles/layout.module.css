@@ -1,0 +1,13 @@
+/* Styling for a layout class */
+.layout {
+    width: 300px;   /* Setting the width of elements with the 'layout' class */
+    margin: 20px;   /* Adding margin around elements with the 'layout' class */
+}
+
+/* Styling for a title class */
+.title {
+    text-align: center; /* Centering text within elements with the 'title' class */
+    font-size: 24px;    /* Setting the font size of text within elements with the 'title' class */
+    margin: 10px;       /* Adding margin around elements with the 'title' class */
+}
+

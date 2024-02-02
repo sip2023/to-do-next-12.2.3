@@ -1,0 +1,24 @@
+/* Styling for a todoInput class */
+.todoInput {
+    padding: 5px;               /* Adding padding to elements with the 'todoInput' class */
+    border: 1px solid black;    /* Adding a 1px solid black border to elements with the 'todoInput' class */
+    width: 194px;               /* Setting the width of elements with the 'todoInput' class */
+    height: 40px;               /* Setting the height of elements with the 'todoInput' class */
+    margin: 5px;                /* Adding margin around elements with the 'todoInput' class */
+}
+
+/* Styling for a toDoRow class */
+.toDoRow {
+    display: flex;              /* Setting the display property to flex for elements with the 'toDoRow' class */
+    flex-direction: row;        /* Setting the flex direction to row for elements with the 'toDoRow' class */
+    align-items: center;        /* Aligning items to the center for elements with the 'toDoRow' class */
+    margin: 5px 20px;            /* Adding margin above and below, and left and right, for elements with the 'toDoRow' class */
+}
+
+/* Styling for a deleteBtn class */
+.deleteBtn {
+    background: none;           /* Removing background color for elements with the 'deleteBtn' class */
+    border: 0;                  /* Removing borders for elements with the 'deleteBtn' class */
+    cursor: pointer;            /* Setting the cursor to pointer for elements with the 'deleteBtn' class */
+}
+
