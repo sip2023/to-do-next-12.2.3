@@ -50,7 +50,7 @@ This application is constructed for future automation, serving as a testing grou
 │   ├── api
 │   └── index.js
 ├── public
-│   ├── favicon.ico.png
+│   ├── favicon.ico
 │   ├── material-symbols_delete-outline-sharp.svg
 │   └── vercel.svg
 └── styles
@@ -80,13 +80,13 @@ To initialize and run this project, follow the outlined steps below:
 1. Clone this repository:
 
     ```bash
-    git clone repo
+    git clone https://github.com/sip2023/to-do-next-12.2.3.git
     ```
 
 2. Navigate to the project directory:
 
     ```bash
-    cd repo
+    cd to-do-next-12.2.3
     ```
 
 3. Install project dependencies:
@@ -101,7 +101,7 @@ To initialize and run this project, follow the outlined steps below:
     psql -U your_username -d your_database -a -f instructions/setup.sql
     ```
 
-5. Configure the `.env` file in the project root with the necessary credentials, following the structure of the `.env.example` file.
+5. Configure the `.env` file in the project root with the necessary credentials, following the structure of the `env.md` file in instruction folder.
 
 6. If PM2 is not installed, install it globally:
 
